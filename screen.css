@@ -1,0 +1,86 @@
+body {
+    background-color:white;
+
+}
+
+header {
+    background-color:rgb(56, 142, 119);
+    height: 100px;
+    position: relative;
+
+}
+
+header h1 {
+    padding: 20px 20px;
+    color: whi;
+    /*list 20px 5px 19px 20px will do top right bottom left*/
+
+}
+
+nav {
+    background-color:57CC99;
+    position: absolute;
+    top: 57px;
+    left: 0px;
+    width: 100%;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0px 0px 200px;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 20px 0px;
+    text-decoration: none;
+    width: 100px;
+}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul li:hover {
+    background-color: aliceblue;
+}
+
+
+#page {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*centers layout*/
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+}
+
+.main {
+    background-color: white;
+    padding: 20px
+}
+
+h1,
+h2,
+h3 {
+    color: aquamarine;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    color: aliceblue
+}
